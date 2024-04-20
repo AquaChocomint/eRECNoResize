@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38D6D3B2BCBD81B00DD6AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D3A2BCBD81B00DD6AE9 /* AppDelegate.swift */; };
+		C38D6D3F2BCBD81B00DD6AE9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D3D2BCBD81B00DD6AE9 /* Main.html */; };
+		C38D6D412BCBD81B00DD6AE9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D402BCBD81B00DD6AE9 /* Icon.png */; };
+		C38D6D432BCBD81B00DD6AE9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D422BCBD81B00DD6AE9 /* Style.css */; };
+		C38D6D452BCBD81B00DD6AE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D442BCBD81B00DD6AE9 /* SceneDelegate.swift */; };
+		C38D6D472BCBD81B00DD6AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D462BCBD81B00DD6AE9 /* ViewController.swift */; };
+		C38D6D4A2BCBD81B00DD6AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D482BCBD81B00DD6AE9 /* LaunchScreen.storyboard */; };
+		C38D6D4D2BCBD81B00DD6AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D4B2BCBD81B00DD6AE9 /* Main.storyboard */; };
+		C38D6D592BCBD81D00DD6AE9 /* eRECResizeBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D582BCBD81D00DD6AE9 /* eRECResizeBlockerTests.swift */; };
+		C38D6D632BCBD81D00DD6AE9 /* eRECResizeBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D622BCBD81D00DD6AE9 /* eRECResizeBlockerUITests.swift */; };
+		C38D6D652BCBD81D00DD6AE9 /* eRECResizeBlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D642BCBD81D00DD6AE9 /* eRECResizeBlockerUITestsLaunchTests.swift */; };
+		C38D6D6B2BCBD81D00DD6AE9 /* eRECNoResize Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C38D6D6A2BCBD81D00DD6AE9 /* eRECNoResize Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C38D6D702BCBD81D00DD6AE9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D6D6F2BCBD81D00DD6AE9 /* SafariWebExtensionHandler.swift */; };
+		C38D6D732BCBD81D00DD6AE9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D722BCBD81D00DD6AE9 /* _locales */; };
+		C38D6D752BCBD81D00DD6AE9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D742BCBD81D00DD6AE9 /* images */; };
+		C38D6D772BCBD81D00DD6AE9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D762BCBD81D00DD6AE9 /* manifest.json */; };
+		C38D6D7B2BCBD81D00DD6AE9 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D7A2BCBD81D00DD6AE9 /* main.js */; };
+		C38D6D832BCBD81D00DD6AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D4E2BCBD81C00DD6AE9 /* Assets.xcassets */; };
+		C38D6D942BCBD98100DD6AE9 /* injection.js in Resources */ = {isa = PBXBuildFile; fileRef = C38D6D932BCBD98100DD6AE9 /* injection.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38D6D552BCBD81D00DD6AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38D6D2F2BCBD81B00DD6AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38D6D362BCBD81B00DD6AE9;
+			remoteInfo = eRECResizeBlocker;
+		};
+		C38D6D5F2BCBD81D00DD6AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38D6D2F2BCBD81B00DD6AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38D6D362BCBD81B00DD6AE9;
+			remoteInfo = eRECResizeBlocker;
+		};
+		C38D6D6C2BCBD81D00DD6AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38D6D2F2BCBD81B00DD6AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38D6D692BCBD81D00DD6AE9;
+			remoteInfo = "eRECResizeBlocker Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C38D6D892BCBD81D00DD6AE9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C38D6D6B2BCBD81D00DD6AE9 /* eRECNoResize Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C38D6D372BCBD81B00DD6AE9 /* eRECNoResize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eRECNoResize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38D6D3A2BCBD81B00DD6AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C38D6D3E2BCBD81B00DD6AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C38D6D402BCBD81B00DD6AE9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C38D6D422BCBD81B00DD6AE9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C38D6D442BCBD81B00DD6AE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C38D6D462BCBD81B00DD6AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38D6D492BCBD81B00DD6AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C38D6D4C2BCBD81B00DD6AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38D6D4E2BCBD81C00DD6AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38D6D4F2BCBD81C00DD6AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38D6D542BCBD81D00DD6AE9 /* eRECNoResizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eRECNoResizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38D6D582BCBD81D00DD6AE9 /* eRECResizeBlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eRECResizeBlockerTests.swift; sourceTree = "<group>"; };
+		C38D6D5E2BCBD81D00DD6AE9 /* eRECNoResizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eRECNoResizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38D6D622BCBD81D00DD6AE9 /* eRECResizeBlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eRECResizeBlockerUITests.swift; sourceTree = "<group>"; };
+		C38D6D642BCBD81D00DD6AE9 /* eRECResizeBlockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eRECResizeBlockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C38D6D6A2BCBD81D00DD6AE9 /* eRECNoResize Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "eRECNoResize Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38D6D6F2BCBD81D00DD6AE9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C38D6D722BCBD81D00DD6AE9 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C38D6D742BCBD81D00DD6AE9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C38D6D762BCBD81D00DD6AE9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C38D6D7A2BCBD81D00DD6AE9 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		C38D6D822BCBD81D00DD6AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38D6D932BCBD98100DD6AE9 /* injection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = injection.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38D6D342BCBD81B00DD6AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D512BCBD81D00DD6AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D5B2BCBD81D00DD6AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D672BCBD81D00DD6AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38D6D2E2BCBD81B00DD6AE9 = {
+			isa = PBXGroup;
+			children = (
+				C38D6D392BCBD81B00DD6AE9 /* eRECResizeBlocker */,
+				C38D6D572BCBD81D00DD6AE9 /* eRECResizeBlockerTests */,
+				C38D6D612BCBD81D00DD6AE9 /* eRECResizeBlockerUITests */,
+				C38D6D6E2BCBD81D00DD6AE9 /* eRECResizeBlocker Extension */,
+				C38D6D382BCBD81B00DD6AE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38D6D382BCBD81B00DD6AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D372BCBD81B00DD6AE9 /* eRECNoResize.app */,
+				C38D6D542BCBD81D00DD6AE9 /* eRECNoResizeTests.xctest */,
+				C38D6D5E2BCBD81D00DD6AE9 /* eRECNoResizeUITests.xctest */,
+				C38D6D6A2BCBD81D00DD6AE9 /* eRECNoResize Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38D6D392BCBD81B00DD6AE9 /* eRECResizeBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D3A2BCBD81B00DD6AE9 /* AppDelegate.swift */,
+				C38D6D442BCBD81B00DD6AE9 /* SceneDelegate.swift */,
+				C38D6D462BCBD81B00DD6AE9 /* ViewController.swift */,
+				C38D6D482BCBD81B00DD6AE9 /* LaunchScreen.storyboard */,
+				C38D6D4B2BCBD81B00DD6AE9 /* Main.storyboard */,
+				C38D6D4E2BCBD81C00DD6AE9 /* Assets.xcassets */,
+				C38D6D4F2BCBD81C00DD6AE9 /* Info.plist */,
+				C38D6D3C2BCBD81B00DD6AE9 /* Resources */,
+			);
+			path = eRECResizeBlocker;
+			sourceTree = "<group>";
+		};
+		C38D6D3C2BCBD81B00DD6AE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D3D2BCBD81B00DD6AE9 /* Main.html */,
+				C38D6D402BCBD81B00DD6AE9 /* Icon.png */,
+				C38D6D422BCBD81B00DD6AE9 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C38D6D572BCBD81D00DD6AE9 /* eRECResizeBlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D582BCBD81D00DD6AE9 /* eRECResizeBlockerTests.swift */,
+			);
+			path = eRECResizeBlockerTests;
+			sourceTree = "<group>";
+		};
+		C38D6D612BCBD81D00DD6AE9 /* eRECResizeBlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D622BCBD81D00DD6AE9 /* eRECResizeBlockerUITests.swift */,
+				C38D6D642BCBD81D00DD6AE9 /* eRECResizeBlockerUITestsLaunchTests.swift */,
+			);
+			path = eRECResizeBlockerUITests;
+			sourceTree = "<group>";
+		};
+		C38D6D6E2BCBD81D00DD6AE9 /* eRECResizeBlocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D6F2BCBD81D00DD6AE9 /* SafariWebExtensionHandler.swift */,
+				C38D6D822BCBD81D00DD6AE9 /* Info.plist */,
+				C38D6D712BCBD81D00DD6AE9 /* Resources */,
+			);
+			path = "eRECResizeBlocker Extension";
+			sourceTree = "<group>";
+		};
+		C38D6D712BCBD81D00DD6AE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C38D6D722BCBD81D00DD6AE9 /* _locales */,
+				C38D6D742BCBD81D00DD6AE9 /* images */,
+				C38D6D762BCBD81D00DD6AE9 /* manifest.json */,
+				C38D6D7A2BCBD81D00DD6AE9 /* main.js */,
+				C38D6D932BCBD98100DD6AE9 /* injection.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38D6D362BCBD81B00DD6AE9 /* eRECNoResize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38D6D8A2BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResize" */;
+			buildPhases = (
+				C38D6D332BCBD81B00DD6AE9 /* Sources */,
+				C38D6D342BCBD81B00DD6AE9 /* Frameworks */,
+				C38D6D352BCBD81B00DD6AE9 /* Resources */,
+				C38D6D892BCBD81D00DD6AE9 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38D6D6D2BCBD81D00DD6AE9 /* PBXTargetDependency */,
+			);
+			name = eRECNoResize;
+			productName = eRECResizeBlocker;
+			productReference = C38D6D372BCBD81B00DD6AE9 /* eRECNoResize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38D6D532BCBD81D00DD6AE9 /* eRECNoResizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38D6D8D2BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResizeTests" */;
+			buildPhases = (
+				C38D6D502BCBD81D00DD6AE9 /* Sources */,
+				C38D6D512BCBD81D00DD6AE9 /* Frameworks */,
+				C38D6D522BCBD81D00DD6AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38D6D562BCBD81D00DD6AE9 /* PBXTargetDependency */,
+			);
+			name = eRECNoResizeTests;
+			productName = eRECResizeBlockerTests;
+			productReference = C38D6D542BCBD81D00DD6AE9 /* eRECNoResizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C38D6D5D2BCBD81D00DD6AE9 /* eRECNoResizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38D6D902BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResizeUITests" */;
+			buildPhases = (
+				C38D6D5A2BCBD81D00DD6AE9 /* Sources */,
+				C38D6D5B2BCBD81D00DD6AE9 /* Frameworks */,
+				C38D6D5C2BCBD81D00DD6AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38D6D602BCBD81D00DD6AE9 /* PBXTargetDependency */,
+			);
+			name = eRECNoResizeUITests;
+			productName = eRECResizeBlockerUITests;
+			productReference = C38D6D5E2BCBD81D00DD6AE9 /* eRECNoResizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C38D6D692BCBD81D00DD6AE9 /* eRECNoResize Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38D6D862BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResize Extension" */;
+			buildPhases = (
+				C38D6D662BCBD81D00DD6AE9 /* Sources */,
+				C38D6D672BCBD81D00DD6AE9 /* Frameworks */,
+				C38D6D682BCBD81D00DD6AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eRECNoResize Extension";
+			productName = "eRECResizeBlocker Extension";
+			productReference = C38D6D6A2BCBD81D00DD6AE9 /* eRECNoResize Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38D6D2F2BCBD81B00DD6AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C38D6D362BCBD81B00DD6AE9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C38D6D532BCBD81D00DD6AE9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C38D6D362BCBD81B00DD6AE9;
+					};
+					C38D6D5D2BCBD81D00DD6AE9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C38D6D362BCBD81B00DD6AE9;
+					};
+					C38D6D692BCBD81D00DD6AE9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C38D6D322BCBD81B00DD6AE9 /* Build configuration list for PBXProject "eRECNoResize" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38D6D2E2BCBD81B00DD6AE9;
+			productRefGroup = C38D6D382BCBD81B00DD6AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38D6D362BCBD81B00DD6AE9 /* eRECNoResize */,
+				C38D6D532BCBD81D00DD6AE9 /* eRECNoResizeTests */,
+				C38D6D5D2BCBD81D00DD6AE9 /* eRECNoResizeUITests */,
+				C38D6D692BCBD81D00DD6AE9 /* eRECNoResize Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38D6D352BCBD81B00DD6AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D6D412BCBD81B00DD6AE9 /* Icon.png in Resources */,
+				C38D6D4D2BCBD81B00DD6AE9 /* Main.storyboard in Resources */,
+				C38D6D4A2BCBD81B00DD6AE9 /* LaunchScreen.storyboard in Resources */,
+				C38D6D3F2BCBD81B00DD6AE9 /* Main.html in Resources */,
+				C38D6D832BCBD81D00DD6AE9 /* Assets.xcassets in Resources */,
+				C38D6D432BCBD81B00DD6AE9 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D522BCBD81D00DD6AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D5C2BCBD81D00DD6AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D682BCBD81D00DD6AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D6D752BCBD81D00DD6AE9 /* images in Resources */,
+				C38D6D772BCBD81D00DD6AE9 /* manifest.json in Resources */,
+				C38D6D732BCBD81D00DD6AE9 /* _locales in Resources */,
+				C38D6D7B2BCBD81D00DD6AE9 /* main.js in Resources */,
+				C38D6D942BCBD98100DD6AE9 /* injection.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38D6D332BCBD81B00DD6AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D6D472BCBD81B00DD6AE9 /* ViewController.swift in Sources */,
+				C38D6D3B2BCBD81B00DD6AE9 /* AppDelegate.swift in Sources */,
+				C38D6D452BCBD81B00DD6AE9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D502BCBD81D00DD6AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D6D592BCBD81D00DD6AE9 /* eRECResizeBlockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D5A2BCBD81D00DD6AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D6D652BCBD81D00DD6AE9 /* eRECResizeBlockerUITestsLaunchTests.swift in Sources */,
+				C38D6D632BCBD81D00DD6AE9 /* eRECResizeBlockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38D6D662BCBD81D00DD6AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38D6D702BCBD81D00DD6AE9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38D6D562BCBD81D00DD6AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38D6D362BCBD81B00DD6AE9 /* eRECNoResize */;
+			targetProxy = C38D6D552BCBD81D00DD6AE9 /* PBXContainerItemProxy */;
+		};
+		C38D6D602BCBD81D00DD6AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38D6D362BCBD81B00DD6AE9 /* eRECNoResize */;
+			targetProxy = C38D6D5F2BCBD81D00DD6AE9 /* PBXContainerItemProxy */;
+		};
+		C38D6D6D2BCBD81D00DD6AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38D6D692BCBD81D00DD6AE9 /* eRECNoResize Extension */;
+			targetProxy = C38D6D6C2BCBD81D00DD6AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38D6D3D2BCBD81B00DD6AE9 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38D6D3E2BCBD81B00DD6AE9 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C38D6D482BCBD81B00DD6AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38D6D492BCBD81B00DD6AE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C38D6D4B2BCBD81B00DD6AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38D6D4C2BCBD81B00DD6AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38D6D842BCBD81D00DD6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C38D6D852BCBD81D00DD6AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38D6D872BCBD81D00DD6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK2V53BR6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eRECResizeBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "eRECResizeBlocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECResizeBlocker.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38D6D882BCBD81D00DD6AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK2V53BR6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eRECResizeBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "eRECResizeBlocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECResizeBlocker.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C38D6D8B2BCBD81D00DD6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eRECResizeBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = eRECNoResize;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECNoResize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38D6D8C2BCBD81D00DD6AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eRECResizeBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = eRECNoResize;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECNoResize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C38D6D8E2BCBD81D00DD6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK2V53BR6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECResizeBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eRECNoResize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eRECNoResize";
+			};
+			name = Debug;
+		};
+		C38D6D8F2BCBD81D00DD6AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK2V53BR6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECResizeBlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eRECNoResize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eRECNoResize";
+			};
+			name = Release;
+		};
+		C38D6D912BCBD81D00DD6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK2V53BR6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECResizeBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eRECResizeBlocker;
+			};
+			name = Debug;
+		};
+		C38D6D922BCBD81D00DD6AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK2V53BR6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquachocomint.eRECResizeBlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eRECResizeBlocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38D6D322BCBD81B00DD6AE9 /* Build configuration list for PBXProject "eRECNoResize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38D6D842BCBD81D00DD6AE9 /* Debug */,
+				C38D6D852BCBD81D00DD6AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38D6D862BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResize Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38D6D872BCBD81D00DD6AE9 /* Debug */,
+				C38D6D882BCBD81D00DD6AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38D6D8A2BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38D6D8B2BCBD81D00DD6AE9 /* Debug */,
+				C38D6D8C2BCBD81D00DD6AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38D6D8D2BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38D6D8E2BCBD81D00DD6AE9 /* Debug */,
+				C38D6D8F2BCBD81D00DD6AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38D6D902BCBD81D00DD6AE9 /* Build configuration list for PBXNativeTarget "eRECNoResizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38D6D912BCBD81D00DD6AE9 /* Debug */,
+				C38D6D922BCBD81D00DD6AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38D6D2F2BCBD81B00DD6AE9 /* Project object */;
+}
